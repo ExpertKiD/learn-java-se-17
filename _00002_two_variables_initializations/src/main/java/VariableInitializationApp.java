@@ -5,5 +5,9 @@ public class VariableInitializationApp {
         int myThirdNumber = 6;
 
         int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+
+        int myLastOne = 1000 - myTotal;
+
+        System.out.println(myLastOne);
     }
 }
